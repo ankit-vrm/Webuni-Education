@@ -1,0 +1,512 @@
+ul{ list-style: none; padding: 0;}
+a, .login-btn a{ text-decoration: none;}
+body{font-family: 'Raleway', sans-serif;}
+body:focus{ outline: none; }
+
+.card-img-price h5{ font-size: 25px; font-weight: 600;}
+.card-img-price{ background-color: #d82a4e; color: #fff; text-align: center; padding: 10px; position: absolute; top: 20%; width: 100%; display: none;}
+
+.hide-srch{ transition-duration: 1s; transition-timing-function: ease; display: none;}
+
+.register-now{ animation: blink 1s linear infinite;}
+.register-now:hover{ animation: none;}
+@keyframes blink{
+    0%{ transform: scale(1);}
+    50%{ transform: scale(0.9);}
+    100%{ transform: scale(1);}
+}
+#preloader{ position: fixed; width: 100%; height: 100%; top: 0; left: 0; z-index: 9999; background: #fff;}
+  
+.loader{ width: 50px; height: 50px; position: absolute; top: 45%; left: 50%; border-radius: 50px; animation: loader 1s linear infinite;}
+        
+@keyframes loader{
+    0%{ transform: rotate(0deg); border: 2px solid #f44336; border-left-color: transparent;}
+    50%{ transform: rotate(180deg); border: 5px solid #d82a4e; border-left-color: transparent;}
+    100%{ transform: rotate(360deg); border: 2px solid #f44336; border-left-color: transparent;}
+}
+
+.page-title{ position: absolute; top: 200px; font-size: 30px; font-weight: 600;}
+
+.main-input{ padding: 0 20px; height: 50px; width: 100%; background-color: #edf4f6; border: none;}
+.main-input:focus{ outline: none;}
+.focus-btm:focus{ border-bottom: 2px solid #d82a4e;}
+.close-btn{ background-color: #000; color: #fff; text-align: center; border: none; padding: 5px 10px; font-weight: 600; font-size: 14px;}
+.modal-login{ text-align: center; border: none; padding: 10px 30px; color: #fff; cursor: pointer; background: #d82a4e; font-weight: 600; font-size: 14px;}
+
+.modal-logo{ padding: 20px 10px; display: inline-block; margin-left: -15px;}
+.modal-header{ background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(../img/modal-img.jpg); background-size: cover;}
+
+.modal-body .sign-in h3{ color: #000; font-weight: 600;}
+.modal-body{ padding: 50px 80px 0;}
+.modal-footer p{ color: #000; font-size: 14px; font-weight: 500; padding-left: 190px;}
+.modal-footer a{ text-decoration: none; color: #d82a4e; font-weight: 600;}
+.modal-input{ width: 100%; height: 40px; padding: 2px 10px;}
+#modal-form{ padding: 0; margin: 0;}
+
+.btn-outline:focus{ outline: none;}
+.nav-item:focus{ outline: none;}
+
+.price-btn{ text-align: center; border: none; color: #fff; cursor: pointer; font-weight: 600; font-size: 16px; background-color: #000; padding: 12.5px;}
+.feature-btn{ text-align: center; border: none; padding: 2px 5px; background: #d82a4e; font-weight: 600; font-size: 14px;}
+.for-scourse a, .for-scourse a:hover{ color: #fff; text-decoration: none;}
+.main-btn{ text-align: center; border: none; padding: 12.5px 20px; color: #fff; cursor: pointer; background: #d82a4e; font-weight: 600; font-size: 16px;}
+.f-tag{ background-color: #d82a4e; color: #fff; display: inline-block;}
+
+.navbar #login-btn{ padding: 10px 50px; background: #d82a4e; margin-left: 140px; color: #fff;}
+.navbar #login-btn:hover{ border-bottom: none; transform: scale(.99);}
+.active-tab{ color: #d82a4e !important;}
+.active-tab:hover{ border-bottom: none !important;}
+
+.wrap-1{background-image: url(../img/bg.jpg); background-repeat: no-repeat; background-size: cover; background-position: top center; height: 100vh; color: #fff;}
+.wrap-1 .navbar{ padding-top: 25px; background-color: rgba(0,0,0,.5);}
+
+
+#navbarSupportedContent{ text-align: right;} 
+.wrap-1 section{ margin-top: 160px; text-align: center;}
+.wrap-1 section h2{ font-size: 60px; font-weight: 500;}
+.wrap-1 section p{ font-size: 14px; line-height: 2.2; font-weight: 500;}
+.wrap-1 form{ margin-top: 80px; text-align: center;}
+.wrap-1 .main-input{ margin-right: 10px;}
+
+.navbar-expand-lg .navbar-nav .nav-link{ display: inline-block; font-size: 16px; font-weight: 600; padding: 10px 15px; margin: 0 5px; color: rgba(250,250,250,1);}
+.navbar-expand-lg .navbar-nav .nav-link:hover{ color: #d82a4e;}
+
+
+
+
+.wrap-1-courses{ background-image: url(../img/page-bg/4.jpg); background-repeat: no-repeat; background-size: cover; background-position: top right; color: #fff; height: 450px;}
+
+.sub-pages-header .navbar{ padding-top: 50px; background-color: rgba(0,0,0,0.5);}
+.sub-pages-header .course-srch{ text-align: center; background-color: #d82a4e; margin: auto; padding: 20px 0 2px; border: 1px solid #d82a4e}
+.sub-pages-header .course-srch h2{ font-size: 24px; font-weight: 500;}
+.sub-pages-header .cs-form{ padding: 60px 70px; background-color: #d82a4e; margin-bottom: 60px; margin: auto;}
+.sub-pages-header .main-btn{ background-color: #000;}
+.sub-pages-header .search-course{ padding-bottom: 0; transform: translateY(80%);}
+.sub-pages-header{ margin-bottom: 15%;} 
+
+
+.wrap-1-contact{ background-image: url(../img/page-bg/1.jpg); background-repeat: no-repeat; background-size: cover; background-position: top left; color: #fff; height: 450px;}
+
+.wrap-1-blogs{ background-image: url(../img/page-bg/3.jpg); background-repeat: no-repeat; background-size: cover; background-position: center right; color: #fff; height: 450px;}
+
+.wrap-1-single-course{ background-image: url(../img/page-bg/4.jpg); background-repeat: no-repeat; background-size: cover; background-position: top center; color: #fff; height: 450px;}
+
+.wrap-1-about{ background-image: url(../img/page-bg/1.jpg); background-repeat: no-repeat; background-size: cover; background-position: top right; color: #fff; height: 450px;}
+
+
+
+.wrap-2 section{ margin-top: 100px; text-align: center;}
+.wrap-2 section h2{ font-size: 48px; font-weight: 600;}
+.wrap-2 section p{ font-size: 14px; line-height: 2.2; font-weight: 500; margin: 15px 0; color: #878787;}
+.wrap-2 .course-categories{ margin-top: 60px;}
+.wrap-2 .course-categories h6, .student-strength, .post{ color: #d82a4e;}
+.wrap-2 .card:hover .card-body{ background-color:#d82a4e; color: #fff;}
+.wrap-2 .card:hover .course-quantity{ color: #fff;}
+.wrap-2 .search-course{ padding: 40px 60px; background-color: #d82a4e; margin-bottom: 60px;}
+.wrap-2 .search-course h2{ font-size: 48px; font-weight: 600; margin-bottom: 25px; color: #fff;}
+.wrap-2 .search-course form{ padding: 40px 5px; background-color: #fff;}
+.wrap-2 .search-course .main-input{ margin-right: 10px;}
+
+
+.wrap-2-contact .query form{ padding: 60px 50px; background-color: #fff;}
+.query{ padding: 60px 50px; background-color: #d82a4e;}
+.contact{ padding: 60px 50px;}
+.query textarea{ background-color: #edf4f6; width: 100%; padding: 20px;}
+.contact h3{ font-size: 48px; font-weight: 600;}
+.contact p{ font-size: 14px; line-height: 2.2; font-weight: 500; color: #878787;}
+.contact h6{ color: #d82a4e; font-weight: bold;}
+.contact h4{ color: #646464; font-weight: 700;}
+.contact ul li{ list-style: disc; font-size: 15px; font-weight: 500; color: #878787; margin: 20px 0;}
+.contact .contact-area{ padding: 5px 30px;}
+.contact .social i{ padding: 0 6px; margin-right: 2px; color: #646464; font-size: 25px;}
+
+.wrap-2-contact .query h3{ font-size: 48px; font-weight: 600; color: #fff;}
+.wrap-2-contact .query p{ font-size: 14px; line-height: 2.2; font-weight: 500; color: #fff;}
+
+.wrap-2-blogs .blog-content{ padding: 0 15px;}
+.wrap-2-blogs .blog-content h3{ font-weight: 600; font-size: 30px;}
+.wrap-2-blogs .blog-content p{ color: #878787; font-weight: 500; font-size: 14px; line-height: 2.2;}
+.wrap-2-blogs hr{ border: 1px solid #878787;}
+.wrap-2-blogs .blog-details pre{ color: #878787; font-weight: 600; padding-top: 13px; font-family: 'Raleway', sans-serif; font-size: 13px; line-height: 1.5;}
+.wrap-2-blogs aside .search{ background-color: #edf4f6;}
+.wrap-2-blogs aside .search i{ color: #878787; position: absolute; right: 20px; top: 18px;}
+.wrap-2-blogs .aside-elements ul li{ font-size: 15px; line-height: 2.2;}
+
+
+.wrap-2-blogs .aside-elements .anchor{ text-decoration: none; color: #878787; font-weight: 500;}
+.wrap-2-blogs .aside-elements .anchor:hover{ color: #d82a4e;}
+.wrap-2-blogs .aside-elements .anchor-tags{ text-decoration: none; color: #fff; font-weight: 500;}
+
+.wrap-2-blogs .aside-elements .tags ul li:hover{ transform: scale(1.1);}
+
+.wrap-2-blogs .aside-elements .tags ul li{ display: inline-block; background-color: #d82a4e; color: #fff; padding: 2px 5px; margin: 4px; font-weight: 500; font-size: 14px;}
+.wrap-2-blogs .aside-elements .recent-blogs h6{ font-size: 13px; font-weight: 800;}
+
+.wrap-2-blogs .aside-elements .recent-blogs .scale:hover{ transform: scaleY(1.1); cursor: pointer;}
+
+
+.wrap-2-single-course .about-fcourse{ padding: 0;}
+.wrap-2-single-course .about-fcourse .f-tag{ padding: 5px;}
+.wrap-2-single-course .about-fcourse .f-tag h6{ margin: 0;}
+.wrap-2-single-course .single-course{ background-color: rgba(216, 42, 78, 0.1);}
+.wrap-2-single-course .details p{ font-size: 14px; line-height: 2.2; font-weight: 500; color: #878787; padding: 0;}
+.wrap-2-single-course .details h6{ font-weight: 600; margin: 0;}
+
+.wrap-2-about .about-us{ padding: 12px 0;}
+.about-page-content{ font-weight: 500; color: #878787; line-height: 2.2; text-align: justify}
+
+.wrap-3 #featured-courses{ text-align: center; margin-top: 60px;}
+.wrap-3 #featured-courses h3{ font-size: 48px; font-weight: 600; margin-bottom: 25px;}
+.wrap-3 #featured-courses p{ font-size: 14px; color: #878787; line-height: 2.2;}
+
+.wrap-3-contact iframe{ width: 100%; height: 60vh; border: none;}
+
+
+.author-pic{ width: 44px; height: 44px; border-radius: 50%; float: left; border: 1.5px solid #d82a4e;}
+.author-1{ background-image: url(../img/authors/1.jpg);}
+.author-2{ background-image: url(../img/authors/2.jpg);}
+.author-3{ background-image: url(../img/authors/3.jpg);}
+.author-4{ background-image: url(../img/authors/4.jpg);}
+.author-5{ background-image: url(../img/authors/5.jpg);}
+.author-6{ background-image: url(../img/authors/6.jpg);}
+.author-7{ background-image: url(../img/authors/7.jpg);}
+.author-8{ background-image: url(../img/authors/8.jpg);}
+.author-detail p{padding-left: 60px; padding-top: 7px; font-weight: 600; font-size: 14px; color: #878787; line-height: 2.2; }
+.set-bg{ background-repeat: no-repeat; background-size: cover; background-position: top center;}
+
+#course-list{ margin: auto;}
+.nav-pills li a{ font-size: 18px; font-weight: 600; color: #474747; margin: 0 2px;  cursor: pointer;}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{ color: #d82a4e; border-bottom: 4px solid #d82a4e; background-color: transparent;}
+
+.wrap-3-courses{ margin-top: 80px;}
+.wrap-3-courses .card{ border-radius: 0;}
+
+.wrap-3-courses .scourse-btn{top: 30px; right: 20px;}
+.wrap-3-courses .f-tag{ background-color: #d82a4e; color: #fff; padding: 10px; display: inline-block;}
+.wrap-3-courses .f-tag h6{ margin-bottom: 0;}
+.wrap-3-courses .card-bg{ background-color: rgba(216, 42, 78, 0.03);}
+.wrap-3-courses .card p{ color: #878787; text-align: justify; font-size: 14px; line-height: 2.2; font-weight: 500;}
+.wrap-3-courses .card .student-strength{ margin: 40px 0;}
+
+
+.wrap-3-about .about-us{ padding: 50px 0;}
+
+
+/*---------------- wrap-3 ends---------------*/
+
+.wrap-4{ margin-top: 100px;}
+.wrap-4 .card{ border: none; border-radius: 0;}
+.wrap-4 section{ background-color: #d82a4e; padding: 135px;}
+.wrap-4 section h2{ font-size: 48px; font-weight: 600; margin-bottom: 25px; color: #fff;}
+.wrap-4 section p{ font-size: 14px; line-height: 2.2; font-weight: 500; color: #fff; text-align: justify;}
+.wrap-4 section form{ background-color: #fff; padding: 60px 50px; margin-top: 60px;}
+.wrap-4 section form input{ margin: 10px 0; width: 100%;}
+.wrap-4 .bg-4 .card{ background-image: url(../img/signup-bg.jpg);  background-repeat: no-repeat; background-position: top center; background-size: cover;}
+
+
+.wrap-4-about .teacher h4{ font-weight: 700;}
+.wrap-4-about .teacher p{ font-weight: 600;}
+.wrap-4-about .teacher-img{ padding: 0 20px;}
+.wrap-4-about .teacher-img img{ border: 2px solid #d82a4e; border-radius: 200px; padding: 3px;}
+.wrap-4-about .teacher-details i{ padding: 5px; color: #878787; font-size: 18px;}
+.about-page-heading{ font-size: 46px; font-weight: 600;}
+
+
+
+
+/*------------Banner Section-----------*/
+
+.join-community-banner section{ text-align: center; padding: 100px 0;}
+.join-community-banner section h2{ font-size: 48px; font-weight: 600; margin-top: 25px;}
+.join-community-banner section p{ font-size: 14px; font-weight: 500; line-height: 2.2; color: #878787; margin-bottom: 40px;}
+.join-community-banner hr{ border: 2px solid #d82a4e;}
+
+
+
+
+/*--------------Footer section------------*/
+
+.footer-up .align-center{ text-align: center;}
+.footer-up .about-us p{ font-size: 14px; font-weight: 500; line-height: 2.2;}
+.footer-up .features li a{ font-size: 14px; font-weight: 500; line-height: 2.2; text-decoration: none; color: #878787; padding: 15px 0;}
+.footer-up .contact-us li{ font-size: 14px; font-weight: 500; color: #878787; line-height: 2.2;}
+.footer-up form input{ margin: 0 0 15px;}
+.footer-up ul li a{ }
+.footer-up p{ color: #878787;}
+.footer-items h2{ font-size: 30px; font-weight: 600;}
+.footer-items .follow-us i{ padding: 0 4px; margin-right: 5px; margin-bottom: 10px; color: #878787; font-size: 30px;}
+.footer-items i:hover, .features li a:hover{ color: #d82a4e; font-weight: 600;}
+.footer-bottom{ margin-top: 20px; background-color: #edf4f6; font-size: 14px; font-weight: 500; color: #474747; padding: 12px 0;}
+.footer-bottom h6{ margin: auto; text-align: center;}
+
+/*---------------wrap-6 ends-------------*/
+
+
+.top{ position: fixed; bottom: 20px; right: 10px; display: none; padding: 5px; cursor: pointer;  border-radius: 30px; z-index: 9999; background-color: #d82a4e;}
+.top img{ animation: blink 1s linear infinite;}
+
+
+.fs-course:hover{ cursor: pointer; box-shadow: 0 5px 10px #878787;}
+
+
+
+
+
+
+/*-------------------------------------------------------- responsive design------------------------------------------------------------------------*/
+
+/*---------------- lanscape ----------------*/
+
+@media screen and (max-width:1400px){
+    .wrap-1{ height: auto;}
+    .wrap-1 section{ margin-top: 160px;}
+    .wrap-1 form{ padding-top: 50px; padding-bottom: 150px;}
+    
+    .wrap-2-single-course{ margin-top: 160px;}
+    .wrap-2-single-course .details .ctg{ padding-left: 40px;}
+    #fcourse-img{ border: 1px solid #d82a4e; border-radius: 50px;}
+    .wrap-3-single-course .course-img img{ width: 100%;}
+    .wrap-3-single-course section{ padding: 0 50px;}
+    
+    
+    .wrap-4 section{ padding: 110px;} 
+    
+    .footer-up{ padding: 60px 60px 20px;}
+    .footer-up .features{ padding-left: 50px;}
+}
+
+@media screen and (max-width:1220px){
+    .wrap-1 .navbar #login-btn{ margin-left: 90px;}
+    .wrap-1 section{ margin-top: 160px;}
+    .wrap-1 section h2{ font-size: 55px;}
+    .wrap-1 form{ padding: 80px 20px 150px;}
+    .navbar #login-btn{ margin-left: 80px;}
+    
+    .contact{ padding: 60px 20px;}
+    
+    .about-page-heading{ font-size: 40px;}
+    .about-page-content{ font-size: 14px; line-height: 1.9;}
+    
+    .wrap-4 section h2{ font-size: 44px;}
+    .wrap-4 section{ padding: 60px;}
+    
+    .footer-items i{ padding: 0 1px; margin-right: 2px; margin-bottom: 10px;}
+    
+}
+
+/*-------------- portrait -------------------*/
+
+@media screen and (max-width:980px){
+    .wrap-1 section{ margin-top: 280px;}
+    .wrap-1 section h2{ font-size: 43px;}
+    .wrap-1 section p{ margin-top: 20px;}
+    .wrap-1 form{ margin-top: 100px;}
+    .wrap-1 form .main-input{ margin-bottom: 15px;}
+    
+    .sub-pages-header .main-input{ margin-bottom: 15px;}
+    .sub-pages-header .main-btn{ padding: 20px; margin-top: 10px;}
+    .sub-pages-header .cs-form{ padding: 50px 40px;}
+    .sub-pages-header .search-course{ transform: translateY(45%);}
+    
+    .wrap-2 .search-course form{ padding: 40px 20px;}
+    .wrap-2 .search-course form .input-1{ margin-right: 10px;}
+    .wrap-2 .search-course form .main-btn{ margin-top: 20px;}
+    
+    .wrap-2-courses #course-list{ margin-top: 15%;}
+    
+    .wrap-2-contact{ margin-top: 250px;}
+    
+    
+    .wrap-2-blogs section{ margin-top: 100px;}
+    
+    .wrap-2-blogs .aside-elements .anchor{ font-weight: 500; font-size: 22px;}
+    .wrap-2-blogs .aside-elements .add-2{ display: none;}
+    .wrap-2-blogs .aside-elements .anchor-tags{ font-size: 20px;}
+    .wrap-2-blogs .aside-elements .tags ul li{ padding: 5px 15px;}
+    
+    .wrap-2-blogs .aside-elements .recent-blogs h6{ font-size: 23px; font-weight: 600;}
+    .wrap-2-blogs .aside-elements .recent-blogs h4{ font-size: 28px; font-weight: 700;}
+    
+    .wrap-2-single-course{ margin-top: 240px;}
+    .wrap-2-single-course .single-course .details .ctg{ padding-left: 109px;}
+    
+    .wrap-2-about{ margin-top: 250px;}
+    .wrap-2-about .about-img img{ padding-top: 20px; height: 45%;}
+    .about-page-heading{ font-size: 30px;}
+    .about-page-content{ font-size: 14px; line-height: 1.6;}
+    
+    .wrap-3-single-course section{ padding: 0 40px;}
+    .wrap-3-single-course section p{ font-size: 16px;}
+    
+    .wrap-3-about{ margin-top: -480px;}
+    .wrap-3-about .about-img-v img{ padding-top: 10px; height: 45%;}
+    
+    
+    
+    .wrap-4 section h2{ font-size: 48px;}
+    .wrap-4 section{ padding: 85px;}
+    .wrap-4 section form{ padding: 80px;}
+    .wrap-4 section form .main-btn{ margin-right: 40px;}
+    .wrap-4 .bg-4 .card{ display: none;}
+    
+
+    .wrap-4-about{ margin-top: -480px;}
+    
+    .wrap-3-single-course section p{ text-align: justify;}
+    
+    .join-community-banner section{ padding-top: 60px;}
+    
+    .footer-up .align-center{ text-align:left;}
+    .footer-up .features, .footer-up .newsletter{ padding-left: 80px;}
+    
+}
+
+
+/*-------------- landscape --------------*/
+
+
+@media screen and (max-width:760px){ 
+    
+    .loader{ width: 50px; height: 50px; position: absolute; top: 45%; left: 48%; border-radius: 50px; animation: loader 1s linear infinite;}
+    .wrap-1 .navbar{ padding: 30px 70px;}
+    #navbarSupportedContent{ padding-top: 20px;}
+    .wrap-1 section{ margin-top: 240px;}
+    .wrap-1 section h2{ font-size: 40px; margin-bottom: 30px;}
+    .wrap-1 form{ margin-top: 0; padding: 80px 40px 150px;}
+    
+    .sub-pages-header .cs-form{ padding: 30px;}
+    .sub-pages-header .main-input{ margin-left: 0; margin-bottom: 15px;}
+    
+    .nav-pills li a{ font-size: 16px;}
+    .nav-pills{ padding: 0 15px;}
+    .nav-pills li{ margin: auto;}
+
+        
+    .wrap-2 .search-course h2{ font-size: 40px;}
+    .wrap-2 .search-course form .main-input{ margin-bottom: 20px;}
+    .wrap-2 .search-course form .main-btn{ margin-top: 0;}
+    .wrap-2 .search-course form{ padding: 60px 80px;}
+    
+    .wrap-2-contact .query form{ padding: 60px 30px;}
+    
+    .wrap-2-single-course .about-fcourse{ padding:0 30px;}
+    .wrap-2-single-course .single-course .details .fcourse-teacher{ padding-top: 6px;}
+    .wrap-2-single-course .single-course .details .ctg{ padding-left: 0;}
+    
+    .wrap-2-about{ margin-top: 180px;}
+    .wrap-2-about .about-img img{ padding-top: 0; height: auto;}
+    .wrap-2-about .about-us{ padding: 15px;}
+    .about-page-heading{ text-align: center;}
+    
+    .wrap-3-about{ margin-top: 0; padding: 15px;}
+    .wrap-3-about .about-img-v img{ padding-top: 0; height: auto;}
+    .wrap-3-about .about-us{ padding: 0;}
+    .wrap-3-about .about-img-v{ padding: 0;}
+    
+    .wrap-4 section{ padding: 127px;}
+    .wrap-4 section h2{ font-size: 38px;}
+    .wrap-4-about{ margin-top: 0;}
+    
+    .join-community-banner section h2{ font-size: 42px;}
+    
+    .footer-up{ padding: 40px 20px;}
+    .footer-up form input{ width: 90%;}
+    .footer-up .features, .footer-up .newsletter{ padding-left: 40px;}
+    
+}
+
+/*-------------------- portrait -----------------*/
+    
+@media screen and (max-width:460px){
+    
+    .loader{ width: 50px; height: 50px; position: absolute; top: 45%; left: 45%; border-radius: 50px; animation: loader 1s linear infinite;}
+    .modal-body{ padding: 50px 40px 0;}
+    .modal-footer p{ padding-left: 80px;}
+    
+    .wrap-1 .navbar{ padding:50px 10px;}
+    .wrap-1 .navbar{ background-color: rgba(0,0,0,0.6);}
+    .wrap-1 form{ margin-top: 0; padding: 80px 20px 150px;}
+    .page-title{ font-size: 25px;}
+    
+    .sub-pages-header .main-input{ margin-left: 0; margin-bottom: 15px;}
+    .sub-pages-header .main-btn{ padding: 15px 0; margin-top: 0; margin-left: 0;}
+    .sub-pages-header .cs-form{ padding: 30px;}
+    .sub-pages-header .search-course{ transform: translateY(62%);}
+    .sub-pages-header{ margin-bottom: 45%;}
+    
+    .wrap-2 section h2{ font-size: 30px;}
+    .wrap-2 section p{ text-align: justify;}
+    .wrap-2 .search-course h2{ font-size: 30px;}
+    .wrap-2 .search-course{ padding: 40px}
+    .wrap-2 .search-course form{ padding: 40px 20px;}
+    .wrap-2 .search-course form .main-input{ margin-bottom: 20px;}
+    .wrap-2 .search-course form .main-btn{ margin-top: 0;}
+    
+    .nav-pills li{ margin: auto;}
+    
+    .wrap-2-contact{ margin-top: 0;}
+    
+    .wrap-2-contact .query{ padding: 40px 20px;}
+    .wrap-2-contact .query h3{ font-size: 30px;}
+    .wrap-2-contact .query p{ text-align: justify; margin-top: 20px;}
+    .wrap-2-contact .query form{ padding: 40px 20px;}
+    
+    .contact h3{ font-size: 30px;}
+    .contact p{ text-align: justify;}
+    .contact ul li{ font-size: 16px;}
+    .contact .social i{ font-size: 30px; margin-right: 4px; padding: 2px 7px;}
+    
+    .wrap-2-blogs .main-content{ margin-top: 0;}
+    .wrap-2-blogs .blog-content h3{ font-size: 26px;}
+    .wrap-2-blogs .blog-content >p{ text-align: justify;}
+    
+    .wrap-2-blogs .aside-elements .recent-blogs h6{ font-size: 18px;}
+    .wrap-2-blogs .aside-elements .recent-blogs h4{ font-size: 24px; font-weight: 500;}
+    
+    
+    .wrap-2-single-course .about-fcourse h3{ font-size: 26px;}
+    .wrap-2-single-course .single-course .details .fcourse-teacher{ padding-top: 8px;}
+    .wrap-2-single-course .imp-btns .price-tag{ margin-bottom: 15px;}
+    .wrap-2-single-course .single-course .details .ctg{ padding-left: 0;}
+    
+    .wrap-2-about{ margin-top: 0;}
+    .wrap-2-about .about-img img{ padding-top: 20px; height: auto;}
+    
+    .wrap-3 section{ padding: 0 20px;}
+    .wrap-3 #featured-courses h3{ font-size: 30px;}
+    .wrap-3 #featured-courses p{ text-align: justify; padding: 0 10px;}
+    
+    .wrap-3-single-course section{ padding: 0 10px;}
+    .wrap-3-single-course section h3{ font-size: 24px;}
+    .wrap-3-single-course section p{ font-size: 14px;}
+    
+    .nav-pills li a{ font-size: 14px; margin-bottom: 5px;}
+    .nav-pills{ padding: 10px 15px;}
+    
+    .wrap-3-about .about-img-v img{ padding-top: 10px; height: auto;}
+    
+    .wrap-4 section{ padding: 80px 10px;}
+    .wrap-4 section h2{ font-size: 30px;}
+    .wrap-4 section form{ padding: 20px;}
+    
+    .wrap-4-about .teacher-img{ padding: 0 50px;}
+    
+    .join-community-banner section{ padding:0 20px;}
+    .join-community-banner section h2{ font-size: 30px;}
+    .join-community-banner section p{ text-align: justify;}
+    .join-community-banner .main-btn{ margin-bottom: 60px;}
+    
+    .footer-up{ padding: 20px 30px;}
+    .footer-up .features, .footer-up .newsletter{ padding-left: 0;}
+    .footer-up .follow-us{ padding-left: 0; padding-top: 15px;}
+    .footer-items{ margin-bottom: 20px;}
+    .footer-up form input{ margin: 0 0 10px;}
+    .footer-items i{ padding: 10px 5px;}
+    .footer-bottom{ text-align: center; margin-top: 0;}
+    .footer-bottom h6{ line-height: 1.5;}
+    
+    @media screen and (max-width:390px){
+       
+    .modal-footer p{ padding-left: 50px;}    
+    }
