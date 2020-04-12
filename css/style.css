@@ -424,11 +424,12 @@ body:focus{ outline: none; }
     .modal-body{ padding: 50px 40px 0;}
     .modal-footer p{ padding-left: 80px;}
     
-    .wrap-1 .navbar{ padding:50px 10px;}
-    .wrap-1 .navbar{ background-color: rgba(0,0,0,0.6);}
+    .wrap-1 .navbar{ padding:20px 10px;}
+    .wrap-1 .navbar{ background-color: #000;}
     .wrap-1 form{ margin-top: 0; padding: 80px 20px 150px;}
     .page-title{ font-size: 25px;}
     
+    .sub-pages-header .navbar{ padding:20px 10px;}
     .sub-pages-header .main-input{ margin-left: 0; margin-bottom: 15px;}
     .sub-pages-header .main-btn{ padding: 15px 0; margin-top: 0; margin-left: 0;}
     .sub-pages-header .cs-form{ padding: 30px;}
