@@ -425,7 +425,7 @@ body:focus{ outline: none; }
     .modal-footer p{ padding-left: 80px;}
     
     .wrap-1 .navbar{ padding:20px 10px;}
-    .wrap-1 .navbar{ background-color: #000;}
+    .wrap-1 .navbar{ background-color: rgba(0,0,0,0.6);}
     .wrap-1 form{ margin-top: 0; padding: 80px 20px 150px;}
     .page-title{ font-size: 25px;}
     
